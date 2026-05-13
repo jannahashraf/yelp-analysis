@@ -1,0 +1,55 @@
+# Large data files
+*.json
+*.csv
+*.parquet
+*.zip
+*.tar.gz
+*.gz
+
+# Environment secrets
+.env
+config/s3_paths.env
+config/aws_credentials.env
+
+# Results (too large for git)
+results/
+*.pkl
+*.model
+*.joblib
+*.h5
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Spark
+metastore_db/
+derby.log
+spark-warehouse/
+
+# Logs
+*.log
+logs/
