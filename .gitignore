@@ -12,7 +12,8 @@ config/s3_paths.env
 config/aws_credentials.env
 
 # Results (too large for git)
-results/
+sentiment_model
+!sentiment_metrics.json
 *.pkl
 *.model
 *.joblib
